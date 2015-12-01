@@ -12,6 +12,7 @@ RUN apk --update --arch=x86_64 add \
     ruby-nokogiri \
     alpine-sdk \
     nodejs \
+    git-svn \
     && rm -rf /var/cache/apk/*
 
 ENV GEM_HOME /usr/local/bundle
