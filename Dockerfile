@@ -13,6 +13,7 @@ RUN apk --update --arch=x86_64 add \
     alpine-sdk \
     nodejs \
     git-svn \
+    man \
     && rm -rf /var/cache/apk/*
 
 ENV GEM_HOME /usr/local/bundle
