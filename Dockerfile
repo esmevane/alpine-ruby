@@ -10,6 +10,7 @@ RUN apk --update --arch=x86_64 add \
     ruby-bundler=${BUNDLER_VERSION}-r0 \
     ruby-dev \
     ruby-nokogiri \
+    alpine-sdk \
     && rm -rf /var/cache/apk/*
 
 ENV GEM_HOME /usr/local/bundle
